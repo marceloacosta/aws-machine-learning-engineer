@@ -1,0 +1,62 @@
+# AWS Machine Learning Engineer Certification Study Guide Configuration
+
+# Document Structure Guidelines
+document_structure:
+  - question_id: "Unique identifier for each question"
+  - topic_tags: "Main topics covered by the question"
+  - question_text: "The actual question"
+  - answer_choices: "All possible answers"
+  - correct_answer: "The correct answer"
+  - explanation: "Feynman-style explanation"
+
+# Explanation Guidelines
+explanation_principles:
+  - Use first principles thinking
+  - Avoid jargon when possible
+  - Break down complex concepts into simple terms
+  - Use analogies and real-world examples
+  - Focus on understanding rather than memorization
+  - Explain why wrong answers are incorrect
+  - Connect concepts to fundamental ML/AWS principles
+
+# File Naming Convention
+file_naming:
+  pattern: "{topic}-{subtopic}-{question_number}.md"
+  example: "ml-fundamentals-bias-variance-001.md"
+
+# Document Template
+markdown_template: |
+  # {topic}: {subtopic}
+  
+  ## Question {question_number}
+  
+  ### Question Text
+  {question_text}
+  
+  ### Answer Choices
+  {answer_choices}
+  
+  ### Correct Answer
+  {correct_answer}
+  
+  ### Explanation
+  {explanation}
+  
+  ### Key Takeaways
+  {key_points}
+  
+  ### Related Topics
+  {related_topics}
+
+# Topics Categories
+main_topics:
+  - ML Fundamentals
+  - AWS SageMaker
+  - Data Processing
+  - Model Training
+  - Model Deployment
+  - MLOps
+  - Security & Governance
+  - Cost Optimization
+  - Performance Tuning
+  - Integration & APIs

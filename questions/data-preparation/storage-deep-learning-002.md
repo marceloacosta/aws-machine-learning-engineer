@@ -6,8 +6,11 @@ A research institute is developing a deep-learning model to analyze satellite im
 Which AWS storage solution is the MOST suitable to support the deep-learning model training process?
 
 A. Amazon Elastic File System (Amazon EFS)
+
 B. Amazon FSx for Windows File Server
+
 C. Amazon Simple Storage Service (Amazon S3)
+
 D. Amazon FSx for Lustre
 
 ## Correct Answer

@@ -9,6 +9,27 @@ document_structure:
   - correct_answer: "The correct answer"
   - explanation: "Feynman-style explanation"
 
+# Question Format Guidelines
+question_format:
+  question_structure: |
+    # {topic}: {subtopic}
+
+    ## Question
+    {question_text}
+
+    Which of the following options is correct?
+
+    A. {option_1}
+
+    B. {option_2}
+
+    C. {option_3}
+
+    D. {option_4}
+
+    ## Correct Answer
+    {letter}: {correct_answer}
+
 # Explanation Guidelines
 explanation_principles:
   - Use first principles thinking
@@ -28,24 +49,21 @@ file_naming:
 markdown_template: |
   # {topic}: {subtopic}
   
-  ## Question {question_number}
-  
-  ### Question Text
+  ## Question
   {question_text}
   
-  ### Answer Choices
-  {answer_choices}
+  {options_with_line_breaks}
   
-  ### Correct Answer
+  ## Correct Answer
   {correct_answer}
   
-  ### Explanation
+  ## Explanation
   {explanation}
   
-  ### Key Takeaways
+  ## Key Takeaways
   {key_points}
   
-  ### Related Topics
+  ## References
   {related_topics}
 
 # Topics Categories

@@ -6,8 +6,11 @@ A financial adviser plans to use machine learning to improve the efficiency and 
 Which options are important for gathering data during model training?
 
 A. Credit bureau data
+
 B. Education History
+
 C. Medical history
+
 D. Employment history
 
 ## Correct Answer
